@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSField - New</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="header" style="width: 100%;background: linear-gradient(to right, #000 25%, #443d90);padding: 20px;">
+        <h2 style="font-size: 50px;"><img src="cssfield-logo.png" width="50px;" style="margin: 0;position:absolute;" alt="cssfield">ㅤ<span style="color: #0072ff;">CSS</span><span style="color: #7ab5ff;">Field</span></h2>
+        <h3 id="description-text">Programar CSS libremente</h3>
+    </div>
+
+    <div id="playground" width="100%">
+        <div id="face">
+                <div id="eye1"></div>
+                <div id="eye2"></div>
+
+                <div id="mouth"></div>
+        </div>
+    </div>
+
+    <div id="editors">
+        <div id="face-editor">
+            <h2 class="text-display" id="face-display">ㅤㅤCaraㅤㅤ</h2>
+            <textarea id="face-editor-textarea" placeholder="Escribe aqui el codigo CSS..."></textarea>
+        </div>
+        <div id="eye1-editor">
+            <h2 class="text-display" id="eye1-display">ㅤㅤOjo Iㅤㅤ</h2>
+            <textarea id="eye1-editor-textarea" placeholder="Escribe aqui el codigo CSS..."></textarea>
+        </div>
+        <div id="eye2-editor">
+            <h2 class="text-display" id="eye2-display">ㅤㅤOjo Dㅤㅤ</h2>
+            <textarea id="eye2-editor-textarea" placeholder="Escribe aqui el codigo CSS..."></textarea>
+        </div>
+        <div id="mouth-editor">
+            <h2 class="text-display" id="mouth-display">ㅤㅤBocaㅤㅤ</h2>
+            <textarea id="mouth-editor-textarea" placeholder="Escribe aqui el codigo CSS..."></textarea>
+        </div>
+    </div>
+
+    <div id="controllers" style="display: flex;">
+        <input type="button" id="apply-changes" value="Aplicar cambios"><br>
+        <input type="button" id="reset-changes" value="Resetear codigo"><br>
+        <input type="button" id="amply-area" value="Ver solo codigo seleccionado"><br>
+    </div><br>
+
+    <center><h3>WANTED GAMES 2022</h3></center><br>
+    <script src="main.js"></script>
+</body>
+</html>
