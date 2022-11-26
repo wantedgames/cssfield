@@ -19,12 +19,6 @@ let reset = 0;
 let codeSelected = "";
 let amplied = false;
 
-/*
-
-CONTINUAR CON EXPORTAR CODIGO ABAJO DE TODO!
-
-*/
-
 // Key Listeners
 
 applyChangesBtn.addEventListener("click", () => {
@@ -158,17 +152,6 @@ amplyAreaBtn.addEventListener('click', () => {
         amplied = false;
         amplyAreaBtn.value = "Ver solo codigo seleccionado"
     }
-});
-
-exportCodeBtn.addEventListener('click', () => {
-    exportResults.value += `HTML: <br>`
-    exportResults.value += 
-    `<div id="face">
-        <div id="eye1"></div>
-        <div id="eye2"></div>
-
-        <div id="mouth"></div>
-    </div>`
 });
 
 // Face
